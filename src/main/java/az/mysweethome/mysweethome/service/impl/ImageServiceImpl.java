@@ -1,11 +1,11 @@
-package az.mysweethome.mysweethome.data.service.impl;
+package az.mysweethome.mysweethome.service.impl;
 
 import az.mysweethome.mysweethome.data.dto.ImageDto;
 import az.mysweethome.mysweethome.data.entity.Image;
 import az.mysweethome.mysweethome.data.mapper.ImageMapper;
 import az.mysweethome.mysweethome.data.repository.ImageRepository;
-import az.mysweethome.mysweethome.data.service.GoogleCloudService;
-import az.mysweethome.mysweethome.data.service.ImageService;
+import az.mysweethome.mysweethome.service.GoogleCloudService;
+import az.mysweethome.mysweethome.service.ImageService;
 import az.mysweethome.mysweethome.exception.ImageNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

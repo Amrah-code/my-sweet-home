@@ -1,4 +1,4 @@
-package az.mysweethome.mysweethome.data.service;
+package az.mysweethome.mysweethome.service;
 
 import org.springframework.web.multipart.MultipartFile;
 

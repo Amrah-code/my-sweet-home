@@ -1,4 +1,4 @@
-package az.mysweethome.mysweethome.data.service;
+package az.mysweethome.mysweethome.service;
 
 import az.mysweethome.mysweethome.data.dto.ImageDto;
 import org.springframework.web.multipart.MultipartFile;

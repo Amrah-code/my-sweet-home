@@ -1,8 +1,7 @@
 package az.mysweethome.mysweethome.controller;
 
 import az.mysweethome.mysweethome.data.dto.ImageDto;
-import az.mysweethome.mysweethome.data.service.ImageService;
-import az.mysweethome.mysweethome.data.service.impl.ImageServiceImpl;
+import az.mysweethome.mysweethome.service.ImageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

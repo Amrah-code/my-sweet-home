@@ -1,6 +1,6 @@
-package az.mysweethome.mysweethome.data.service.impl;
+package az.mysweethome.mysweethome.service.impl;
 
-import az.mysweethome.mysweethome.data.service.GoogleCloudService;
+import az.mysweethome.mysweethome.service.GoogleCloudService;
 import az.mysweethome.mysweethome.exception.WrongFileFormatException;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.common.collect.Lists;
