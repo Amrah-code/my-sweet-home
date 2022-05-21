@@ -62,7 +62,6 @@ public class GoogleCloudServiceImpl implements GoogleCloudService {
 
     @Override
     public boolean deleteImage(String objectName) {
-
         try {
             GoogleCredentials credentials = GoogleCredentials.fromStream(new FileInputStream("src/main/resources/gcp-cred-file.json"))
                     .createScoped(Lists.newArrayList("https://www.googleapis.com/auth/cloud-platform"));
